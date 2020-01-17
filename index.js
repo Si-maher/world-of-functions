@@ -19,3 +19,12 @@ grumpus()
 for ( let i = 0; i < 5; i ++){
     grumpus()
 }
+
+// ################################
+
+function rollDie () {
+    let roll = Math.floor(Math.random() * 6) + 1
+    console.log(`You rolled: ${roll}`);
+    
+}
+rollDie()
