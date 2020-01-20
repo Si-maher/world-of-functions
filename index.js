@@ -38,5 +38,16 @@ function throwDie(num){
     }
 }
 throwDie(4)
-// Arguments are inputs within parenthesis into a function 
-// If no arguments are declared, then the function outputs the same everytime 
+
+
+// Two parameter function declaration 
+
+function sum (a,b) {
+    console.log(a + b);
+    
+}
+
+sum(4,7)
+// Parameters are inputs within parenthesis into a function 
+// If no parameters are declared, then the function outputs the same everytime .
+// When we execute or call the function, the value that we put in is called an argument 
