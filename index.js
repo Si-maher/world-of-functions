@@ -72,3 +72,13 @@ function square(a){
     
 }
 square(4)
+
+function isPurple(color){
+    if (color.toLowerCase() === 'purple'){
+        return true
+    }else {
+        return false
+    }
+}
+console.log(isPurple('purple'));
+
