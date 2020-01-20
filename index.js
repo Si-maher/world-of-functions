@@ -82,3 +82,12 @@ function isPurple(color){
 }
 console.log(isPurple('purple'));
 
+function isPurple1 (color) {
+    if (color.toLowerCase === 'purple') {
+        return true
+    }
+    return false
+}
+console.log(isPurple1('pink'));
+
+
