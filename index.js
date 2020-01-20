@@ -105,3 +105,13 @@ console.log(isPurple2('green'));
 
 // ####################
 
+function containsPurple ( array) {
+    for (let color of array){
+        if (color === 'purple' || color === 'magenta'){
+            return true
+        }
+    }
+    return false
+}
+
+console.log(containsPurple(['pink', 'blue', 'purple']))
