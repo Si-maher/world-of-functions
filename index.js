@@ -48,6 +48,7 @@ function sum (a,b) {
 }
 
 sum(4,7)
+
 // Parameters are inputs within parenthesis into a function 
 // If no parameters are declared, then the function outputs the same everytime .
 // When we execute or call the function, the value that we put in is called an argument.
@@ -73,6 +74,8 @@ function square(a){
 }
 square(4)
 
+// ####################
+
 function isPurple(color){
     if (color.toLowerCase() === 'purple'){
         return true
@@ -82,6 +85,8 @@ function isPurple(color){
 }
 console.log(isPurple('purple'));
 
+// ####################
+
 function isPurple1 (color) {
     if (color.toLowerCase === 'purple') {
         return true
@@ -90,4 +95,13 @@ function isPurple1 (color) {
 }
 console.log(isPurple1('pink'));
 
+// ####################
+
+function isPurple2 (color) {
+    return color.toLowerCase === 'purple'
+}
+
+console.log(isPurple2('green'));
+
+// ####################
 
