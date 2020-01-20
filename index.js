@@ -167,4 +167,17 @@ function averageValue (array) {
 }
 console.log(averageValue([50,100]));
 
+// #######################
+
+function isPangram (sentence){
+    let newSentence = sentence.toLowerCase()
+    for (let char of 'abcdefghijklmnopqrstuvwxyz'){
+        if(newSentence.indexOf(char) === -1) {
+            return false
+        }
+    }
+    return true
+}
+console.log(isPangram('The five boxing wizards jump quickly'));
+
 
