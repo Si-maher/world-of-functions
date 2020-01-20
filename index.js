@@ -28,3 +28,15 @@ function rollDie () {
     
 }
 rollDie()
+
+
+function throwDie(num){
+    for ( let i = 0; i < num; i ++) {
+        // console.log(num);
+        rollDie()
+        
+    }
+}
+throwDie(4)
+// Arguments are inputs within parenthesis into a function 
+// If no arguments are declared, then the function outputs the same everytime 
