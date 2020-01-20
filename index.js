@@ -154,3 +154,17 @@ function isValidPassword2 (password, username) {
     return true
 }
 console.log(isValidPassword2('abc', 'xyz'));
+
+// ##################
+
+function averageValue (array) {
+    let total = 0
+    for ( let num of array){
+        total += num
+    }
+    let result = total / array.length
+    return result
+}
+console.log(averageValue([50,100]));
+
+
