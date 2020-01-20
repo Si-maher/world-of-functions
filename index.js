@@ -192,4 +192,19 @@ function isPangram1 (sentence){
 }
 console.log(isPangram1('The five boxing wizard jump quickly'));
 
+// Create a function to randomly pick a number and suit from a deck of cards 
+
+function pick(array){
+    const i = Math.floor(Math.random() * array.length)
+    return array[i]
+}
+function getCard() {
+    const values = ['1','2','3','4','5','6','7','8','9','10','J','Q','K','A']
+    const suits = ['clubs','diamonds','hearts', 'spades']
+    const value = pick(values)
+    const suit = pick(suits)
+    return {value : value, suit : suit}
+}
+console.log(getCard());
+
 
