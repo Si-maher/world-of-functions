@@ -181,3 +181,15 @@ function isPangram (sentence){
 console.log(isPangram('The five boxing wizards jump quickly'));
 
 
+function isPangram1 (sentence){
+    let newSentence = sentence.toLowerCase()
+    for (let char of 'abcdefghijklmnopqrstuvwxyz'){
+        if(!newSentence.includes(char)){
+            return false
+        }
+    }
+    return true
+}
+console.log(isPangram1('The five boxing wizard jump quickly'));
+
+
