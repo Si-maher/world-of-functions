@@ -63,3 +63,12 @@ function multiply(a,b) {
 console.log(multiply(2,4))
 const newValue = multiply(2,4)
 console.log('New value:', newValue);
+
+// The return statement ends function execution. Any code wrtten after the return will not be run.
+
+function square(a){
+    return a * a
+    console.log('All done');
+    
+}
+square(4)
