@@ -132,6 +132,7 @@ function isValidPassword(password,username) {
 }
 console.log(isValidPassword('12345678', '146'));
 
+// or 
 
 function isValidPassword1 (password, username) {
     if (password.length < 8 ||
@@ -142,3 +143,14 @@ function isValidPassword1 (password, username) {
         return true
 }
 console.log(isValidPassword1('abcdefghi', 'abc'));
+
+// or 
+
+function isValidPassword2 (password, username) {
+    const tooShort = password.length < 8
+    const hasSpace = password.indexOf(' ') !== -1
+    const tooSimilar = password.indexOf(username) !== -1
+    if (tooShort || hasSpace || tooSimilar) return false
+    return true
+}
+console.log(isValidPassword2('abc', 'xyz'));
