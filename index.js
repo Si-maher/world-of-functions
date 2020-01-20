@@ -50,4 +50,16 @@ function sum (a,b) {
 sum(4,7)
 // Parameters are inputs within parenthesis into a function 
 // If no parameters are declared, then the function outputs the same everytime .
-// When we execute or call the function, the value that we put in is called an argument 
+// When we execute or call the function, the value that we put in is called an argument.
+
+// Return values 
+
+// Useful because we can capture them in another variable and pass them to another function.
+
+function multiply(a,b) {
+    return a * b
+}
+
+console.log(multiply(2,4))
+const newValue = multiply(2,4)
+console.log('New value:', newValue);
