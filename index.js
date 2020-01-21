@@ -256,3 +256,40 @@ function birdwatch() {
 }
 birdwatch()
 console.log(bird);
+
+// #################
+
+// Var, Let and Const 
+
+// These have different scope rules
+
+if (true) {
+    var animal = 'eel'
+    console.log(animal);
+    
+}
+console.log(animal); 
+// We have access within the function scope and block scope
+
+if(true) {
+    const animal1 = 'Bear'
+    let bird1 = 'Kingfisher'
+    console.log(animal1);
+    console.log(bird1);
+    
+}
+// console.log(animal1);
+// console.log(bird1);
+// No access to these using const and let 
+
+function doubleArray (array) {
+    const result = []
+    for ( let num of array){
+        let double = num * 2
+        result.push(double)
+    }
+    return result
+}
+console.log(doubleArray([1,3,5]))
+
+
