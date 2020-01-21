@@ -208,3 +208,19 @@ function getCard() {
 console.log(getCard());
 
 
+// Scope 
+
+// Variable visibility. The location where a variable is defined dictates where we have access to that variable.
+
+// Function Scope 
+
+// A variable defined within a function is only accessable within that function 
+
+// Example 
+
+function helpMe(){
+    let msg = "I'm on fire"
+    msg // "I'm on fire"
+}
+
+msg // Not defined
