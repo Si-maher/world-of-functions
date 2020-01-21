@@ -292,4 +292,25 @@ function doubleArray (array) {
 }
 console.log(doubleArray([1,3,5]))
 
+// #################
+
+// Lexical scope 
+
+// Nested functions are lexically bound to their parent or outer function 
+
+function outer() {
+    let movie = 'Interstella'
+    
+    function inner() {
+        let movie = 'BladeRunner2049'
+
+        function extraInner() {
+            console.log(movie.toLocaleUpperCase);
+            
+        }
+        extraInner()
+    }
+    inner()
+}
+console.log(outer());
 
