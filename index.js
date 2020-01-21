@@ -223,4 +223,25 @@ function helpMe(){
     msg // "I'm on fire"
 }
 
-msg // Not defined
+//msg // Not defined
+
+function lol(){
+    let person = 'Tom'
+    const age = 45
+    var color = 'black'
+    console.log(age);
+    console.log(color);
+    console.log(age);
+    
+}
+function lol1() {
+    let person ='Simon'
+    const age = 46
+    var color = 'green'
+    console.log(age);
+    console.log(color);
+    console.log(person);
+    
+}
+lol1()
+lol()
