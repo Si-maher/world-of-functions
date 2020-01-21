@@ -314,3 +314,13 @@ function outer() {
 }
 console.log(outer());
 
+// ##########################
+
+// Function expressions 
+
+// We can store functions as a variable because functions in JS are objects 
+
+const square1 = function (num) {
+    return num * num
+}
+console.log(square1(7))
