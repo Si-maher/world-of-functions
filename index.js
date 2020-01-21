@@ -245,3 +245,14 @@ function lol1() {
 }
 lol1()
 lol()
+
+// ###############
+
+var bird = 'mandarinduck'
+function birdwatch() {
+    var bird = 'golden pheasent'
+    console.log(bird);
+    
+}
+birdwatch()
+console.log(bird);
